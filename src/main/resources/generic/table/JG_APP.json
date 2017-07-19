@@ -1,0 +1,29 @@
+{
+    "propertys": [
+        {
+            "cnName": "ip",
+            "engName": "ip"
+        },
+        {
+            "cnName": "端口",
+            "engName": "port"
+        },
+        {
+            "cnName": "应用协议",
+            "engName": "app_control"
+        },
+        {
+            "cnName": "允许访问的ip段",
+            "engName": "usr"
+        }
+    ],
+    "tableInfo": {
+        "classFullName":"com.topsec.tsm.magiclamp.warning.persistence.App",
+        "className": "App",
+        "classShortName":"app",
+        "packagePath": "com.topsec.tsm.magiclamp.warning.persistence.",
+        "tableCNName": "应用系统权限表",
+        "tableMenu":"addAppData",
+        "tableName": "JG_APP"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "propertys": [
+        {
+            "cnName": "ip",
+            "engName": "ip"
+        },
+        {
+            "cnName": "设备名称",
+            "engName": "name"
+        },
+        {
+            "cnName": "设备编号",
+            "engName": "num"
+        },
+        {
+            "cnName": "设备类型",
+            "engName": "role"
+        },
+        {
+            "cnName": "安全域",
+            "engName": "domain"
+        },
+        {
+            "cnName": "部门",
+            "engName": "dept"
+        },
+        {
+            "cnName": "责任人",
+            "engName": "principal"
+        }
+    ],
+    "tableInfo": {
+        "classFullName": "com.topsec.tsm.magiclamp.warning.persistence.Device",
+        "className": "Device",
+        "classShortName": "device",
+        "packagePath": "com.topsec.tsm.magiclamp.warning.persistence.",
+        "tableCNName": "资产表",
+        "tableMenu": "addDeviceData",
+        "tableName": "JG_DEVICE"
+    }
+}
