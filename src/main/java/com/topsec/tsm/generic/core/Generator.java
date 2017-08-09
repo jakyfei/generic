@@ -10,7 +10,7 @@ import org.springframework.util.StringUtils;
 import com.topsec.tsm.generic.util.IOUtil;
 
 /**
- * @author yue_tf
+ * Created by yue_tf on 2017/3/27
  */
 public class Generator {
 

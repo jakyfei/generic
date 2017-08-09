@@ -18,7 +18,7 @@ import com.topsec.tsm.generic.pojo.Property;
 import com.topsec.tsm.generic.util.PageUtil;
 
 /**
- * @author yue_tf
+ * Created by yue_tf on 2017/3/26
  */
 public class TableDaoImpl extends HibernateDaoSupport implements TableDao {
 

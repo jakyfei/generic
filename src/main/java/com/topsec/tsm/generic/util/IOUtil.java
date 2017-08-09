@@ -13,7 +13,7 @@ import java.io.UnsupportedEncodingException;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author yue_tf
+ * Created by yue_tf on 2017/3/28
  */
 public class IOUtil {
 

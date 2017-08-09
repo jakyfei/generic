@@ -5,7 +5,7 @@ import java.io.Serializable;
 import org.apache.commons.lang.Validate;
 
 /**
- * @author yue_tf
+ * Created by yue_tf on 2017/3/26
  */
 public class PageInfo implements Serializable {
 

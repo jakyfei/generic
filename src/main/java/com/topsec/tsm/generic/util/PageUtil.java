@@ -7,7 +7,7 @@ import org.hibernate.Query;
 import com.topsec.tsm.generic.core.PageInfo;
 
 /**
- * @author yue_tf
+ * Created by yue_tf on 2017/3/28
  */
 public class PageUtil {
 

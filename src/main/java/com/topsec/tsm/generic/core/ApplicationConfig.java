@@ -17,6 +17,9 @@ import com.topsec.tsm.generic.pojo.Property;
 import com.topsec.tsm.generic.pojo.Table;
 import com.topsec.tsm.generic.util.IOUtil;
 
+/**
+ * Created by yue_tf on 2017/3/27
+ */
 public class ApplicationConfig {
 
     /**

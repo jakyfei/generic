@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.topsec.tsm.generic.core.PageInfo;
 
 /**
- * @author yue_tf
+ * Created by yue_tf on 2017/3/26
  */
 public interface TableService {
 

@@ -27,9 +27,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 /**
  * Excel写入工具类
- *
- * @author yue_tf
- * @Version 1.0
+ * Created by yue_tf on 2017/3/28
  */
 public class ExcelExport {
 
