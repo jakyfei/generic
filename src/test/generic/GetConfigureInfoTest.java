@@ -8,9 +8,8 @@ import org.junit.Test;
 import java.util.List;
 
 /**
- * Created by Coffee on 2017/6/13.
+ * Created by yue_tf on 2017/3/29
  */
-
 public class GetConfigureInfoTest {
 
     @Test
