@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.util.StringUtils;
 
 /**
+ * Map转化辅助类
  * Created by yue_tf on 2017/3/28
  */
 public class MapUtil {

@@ -18,6 +18,7 @@ import com.topsec.tsm.generic.pojo.Table;
 import com.topsec.tsm.generic.util.IOUtil;
 
 /**
+ * 全局配置文件
  * Created by yue_tf on 2017/3/27
  */
 public class ApplicationConfig {
@@ -91,6 +92,10 @@ public class ApplicationConfig {
 
     }
 
+    /**
+     * 初始化表工厂
+     * @throws IOException
+     */
     private void initTableFactory() throws IOException {
         Properties properties = new Properties();
         InputStream in = ApplicationConfig.class.getResourceAsStream(PROPERTIES_PATH);
@@ -132,7 +137,10 @@ public class ApplicationConfig {
         TableFactory.writeHeaders.put(tableName, writeHeaders);
     }
 
-
+    /**
+     * 获取配置文件信息
+     * @return
+     */
     public static PropertiesParam getPropertiesParam() {
         Properties properties = new Properties();
         InputStream in = ApplicationConfig.class.getResourceAsStream(PROPERTIES_PATH);

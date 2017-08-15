@@ -1,6 +1,7 @@
 package com.topsec.tsm.generic.pojo;
 
 /**
+ * 表字段信息封装类
  * Created by yue_tf on 2017/3/26
  */
 public class Property {

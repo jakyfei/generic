@@ -5,6 +5,7 @@ import java.io.Serializable;
 import org.apache.commons.lang.Validate;
 
 /**
+ * 分页信息封装类
  * Created by yue_tf on 2017/3/26
  */
 public class PageInfo implements Serializable {

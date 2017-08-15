@@ -7,6 +7,7 @@ import org.hibernate.Query;
 import com.topsec.tsm.generic.core.PageInfo;
 
 /**
+ * 分页辅助类
  * Created by yue_tf on 2017/3/28
  */
 public class PageUtil {

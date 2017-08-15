@@ -10,6 +10,7 @@ import org.springframework.util.StringUtils;
 import com.topsec.tsm.generic.util.IOUtil;
 
 /**
+ * 页面文件生成工具类
  * Created by yue_tf on 2017/3/27
  */
 public class Generator {
@@ -71,9 +72,7 @@ public class Generator {
 
     static {
         File file = new File("");
-        /*
-      项目绝对路径
-     */
+        // 项目绝对路径
         String path = file.getAbsolutePath();
         PropertiesParam param = ApplicationConfig.getPropertiesParam();
         FTL_DIR = path + param.getTem_dir_path();
@@ -88,6 +87,7 @@ public class Generator {
     }
 
     /**
+     * 生成表信息展示页面
      * @param replaceStr 替换字符串
      * @param templateName 标识名
      */
@@ -101,9 +101,9 @@ public class Generator {
     }
 
     /**
+     * 生成表信息编辑页面
      * @param replaceStr 替换字符串
      * @param templateName 标识名
-     * @author yue_tf
      */
     public static void genEditTemplate(String replaceStr, String templateName) {
         if (StringUtils.isEmpty(EDIT_TEMPLATE)) {
